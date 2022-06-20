@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome!</title>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            function flipCAL()  {
+                const body = document.querySelector("#CalCourses");
+                body.style.visibility = "visible";
+                const pic = document.querySelector("#CAL");
+                pic.style.visibility = "hidden";
+                return false;
+                
+            }
+            function flipNorthwood()  {
+                const body = document.querySelector("#northwood");
+                body.style.visibility = "visible";
+                const pic = document.querySelector("#northwoodDiv");
+                pic.style.visibility = "hidden";
+                return false;
+                
+            }
+        </script>
+
+    </head>
+    <body>
+
+        <div class = "menu"  class = "outter">
+            <nav>
+                <h2 class = "logo"> Portfolio</h2>
+                <ul>
+                    <li><a href = "#menu">Home</a></li>
+                    <li><a href = "#aboutme">About Me</a></li>
+                    <li><a href = "#education">Relevent Courses</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                </ul>    
+                
+
+            </nav>
+            <h4 style = "text-align: center; float: none; margin-top: 10%;">
+                hey there, i'm
+            </h4>
+            <h1 id = "work" >
+                ----Buyankhuu Tsolmonkhuu----
+            </h1>
+        
+        </div>
+
+        <div id = "aboutme" class = "outter">
+        <div2  >
+            <img src = "images\4FB09D4E-006A-4024-AD96-4796A0283717.jpg" >
+           
+        </div2>    
+        <div2 class = "inner"   >
+            About Me!
+            
+        </div2>    
+        </div>
+
+
+
+    <div id ="education" class = "outter">
+        
+            <div2 class = "inner" id = "CAL">
+                <p>
+                    University Of California, Berkeley
+                </p>
+                <ul id = "CalCourses">
+                    <p>
+                        University Of California, Berkeley
+                    </p>
+                    <li>
+                        CS61A: Structure and Interpretation of Computer Programs
+                    </li>
+                    <li>
+                        CS61B: Data Structures
+                    </li>
+                    <li>
+                        CS70: Discrete Math
+                    </li> 
+                    <li>
+                        Data 8: Introduction to Data Science
+                    </li>
+                    <li>
+                        Calculus
+                    </li>    
+                </ul>
+                <button onclick="flipCAL()" style = "margin-top: 16.5vh;background-color: black;"> Relevent Courses</button>
+            </div2>
+            <div2 class = "inner" id = "northwoodDiv">
+                <p>
+                    Northwood High School
+                </p>
+                <p>
+                    🚪🏃🏻‍♂️💨
+                </p>  
+                <ul id = "northwood">
+                    <p>
+                        Northwood High School
+                    </p>
+                    <li>
+                        AP Computer Science A
+                    </li>
+                    <li>
+                        AP Computer Science Principles
+                    </li>
+                </ul>
+                <button onclick="flipNorthwood()"  style = "margin-top: 33vh;background-color: black;"> Relevent Courses</button>
+            </div2>
+          
+        
+    </div>    
+    <div id = "projects"  class = "outter">
+        <h1>
+           Projects
+        </h1>        
+            <ul>
+                <p>
+                    Python
+                </p>
+                <li>
+                    CS61A Projects Lists 
+                </li>
+                <li>
+                    Java
+                </li>
+            </ul>
+            
+            
+        
+    </div>  
+    
+        
+     
+<html>
