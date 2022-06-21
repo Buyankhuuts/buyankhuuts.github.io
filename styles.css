@@ -97,7 +97,7 @@ p{
 }
 
 div {
-    background-color: yellow;
+    background-color: orange;
 }
 button{
     padding: 14px 40px;
@@ -180,6 +180,7 @@ button:hover {
     display:block;
 }
 #PythonSection{
+
     float:left;
     display:none;
 }
