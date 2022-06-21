@@ -174,32 +174,27 @@ button:hover {
 .ProjectBlocksJava{
     
     background-color: grey;
-    visibility: visible;
     display:block;
 }
 #PythonSection{
 
-    float:left;
+  
     display:none;
 }
 #JavaSection{
-    float:left;
+  
     display:none;
 }
 #WebSection{
-    float:left;
+   
     display:none;
 }
-
-
-
 
 .Projectsection{
     
   
     float:left;
     display:contents;
-   
     background-color: grey;
     width: 4in;
     height:1.8in;
