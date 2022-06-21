@@ -21,8 +21,18 @@
                 return false;
                 
             }
+            function changeColor(){
+                const body = document.querySelector(".heartEmoji");
+                if(body.style.textShadow == "grey 0px 0px 0px"){
+                    body.style.textShadow = "0 0 0 red";
+                }else{
+                    body.style.textShadow = "0 0 0 grey";
+                }
+                return false;
+                
+            }
         </script>
-
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     </head>
     <body>
 
@@ -48,16 +58,145 @@
         </div>
 
         <div id = "aboutme" class = "outter">
-        <div2  >
+        <div2>
             <img src = "images\4FB09D4E-006A-4024-AD96-4796A0283717.jpg" >
            
         </div2>    
-        <div2 class = "inner"   >
-            About Me!
-            
-        </div2>    
-        </div>
 
+
+
+        <div2 class = "inner" id = "aboutMe" >
+            <h1 id = "AbourMeHeader">About Me Playlist</h1>
+            <div class = "songSection">
+                <img class = "albumCover" src = "images/album/album cover.jpeg" >
+                <div class = "personalInfo">
+                    <h3 class = "question">
+                        HomeTown? <br>
+                    </h3>
+                    <p class = "answer">
+                        Irvine, Ca <br>
+                    </p>
+                </div>
+                <button class = "heartEmoji" onclick="changeColor()">
+                   <p style = "font-size: x-large;">❤️<p> 
+                </button>
+            </div>
+
+
+            <div class = "songSection" >
+                <img class = "albumCover" src = "images/album/album1.jpeg" >
+                <div class = "personalInfo">
+                    <h3 class = "question">
+                        School? <br>
+                    </h3>
+                    <p class = "answer">
+                        University Of California, Berkeley <br>
+                    </p>
+                </div>
+                <button class = "heartEmoji" onclick="changeColor()">
+                   <p style = "font-size: x-large;">❤️<p> 
+                </button>
+            </div>
+
+            <div class = "songSection" style ="margin-inline-start: auto;">
+                <img class = "albumCover" src = "images/album/album2.png" >
+                <div class = "personalInfo">
+                    <h3 class = "question">
+                        Major? <br>
+                    </h3>
+                    <p class = "answer">
+                        Computer Science <br>
+                    </p>
+                </div>
+                <button class = "heartEmoji" onclick="changeColor()">
+                   <p style = "font-size: x-large;">❤️<p> 
+                </button>
+            </div>
+
+           
+
+            <div class = "songSection" style ="margin-inline-start: auto;">
+                <img class = "albumCover" src = "images/album/album4.jpeg" >
+                <div class = "personalInfo">
+                    <h3 class = "question">
+                        ExpGrad? <br>
+                    </h3>
+                    <p class = "answer">
+                        2025 <br>
+                    </p>
+                </div>
+                <button class = "heartEmoji" onclick="changeColor()">
+                   <p style = "font-size: x-large;">❤️<p> 
+                </button>
+            </div>
+            <div class = "songSection" style ="margin-inline-start: auto;">
+                <img class = "albumCover" src = "images/album/new playlist pic .jpeg" >
+                <div class = "personalInfo">
+                    <h3 class = "question">
+                        Hobbies? <br>
+                    </h3>
+                    <p class = "answer">
+                        Biking, Hiking, Swimming and Eating <br>
+                    </p>
+                </div>
+                <button class = "heartEmoji" onclick="changeColor()">
+                   <p style = "font-size: x-large;">❤️<p> 
+                </button>
+            </div>
+
+            <div class = "songSection" style ="margin-inline-start: auto;">
+                <img class = "albumCover" src = "images/album/album5.jpeg">
+                <div class = "personalInfo">
+                    <h3 class = "question">
+                        Personality Type? <br>
+                    </h3>
+                    <p class = "answer">
+                        ENFJ-T <br>
+                    </p>
+                </div>
+                <button class = "heartEmoji" onclick="changeColor()">
+                   <p style = "font-size: x-large;">❤️<p> 
+                </button>
+            </div>
+            <div class = "songSection" style ="margin-inline-start: auto;">
+                <img class = "albumCover" src = "images/album/album6.jpeg">
+                <div class = "personalInfo">
+                    <h3 class = "question">
+                        3 Words To Describe Myself? <br>
+                    </h3>
+                    <p class = "answer">
+                        Driven,Detail-Ortiented and Organized<br>
+                    </p>
+                </div>
+                <button class = "heartEmoji" onclick="changeColor()">
+                   <p style = "font-size: x-large;">❤️<p> 
+                </button>
+            </div>
+            
+            <div class = "songSection" style ="margin-inline-start: auto;">
+                <img class = "albumCover" src = "images/album/album7.jpeg" >
+                <div class = "personalInfo">
+                    <h3 class = "question">
+                        Contact Info? <br>
+                    </h3>
+                    <p class = "answer">
+                        <a href="https://www.linkedin.com/in/buyankhuu-tsolmonkhuu-73992a1a7/"> Linkdin | 
+                        </a>
+                        <a href="https://open.spotify.com/user/buyankhuuts"> Spotify |
+                        </a>
+                        <a href="https://github.com/Buyankhuuts">Github | 
+                        </a>
+                        <a href="mailto: buyankhuuts@berkeley.edu">Email
+                        </a>
+                    </p>
+                </div>
+                <button class = "heartEmoji" onclick="changeColor()">
+                   <p style = "font-size: x-large;">❤️<p> 
+                </button>
+            </div>
+
+        </div2>    
+       
 
 
     <div id ="education" class = "outter">
@@ -115,18 +254,9 @@
         <h1>
            Projects
         </h1>        
-            <ul>
-                <p>
-                    Python
-                </p>
-                <li>
-                    CS61A Projects Lists 
-                </li>
-                <li>
-                    Java
-                </li>
-            </ul>
-            
+            <p>
+                🚧Construction🚧
+            </p>
             
         
     </div>  

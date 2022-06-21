@@ -160,8 +160,68 @@ button:hover {
       left:67%;
     }
   }
+#aboutMe {
+    
+    scroll-behavior: smooth;
+    scrollbar-color: black;
+    scrollbar-width: 2in;
+    overflow-y: scroll;
+    
+}
+.personalInfo{
+    
+    background-color: black;
+    color: azure;
+    float: left;
+    width: 3.5in;
+    margin-inline: ;
+    
+}
 
+#AbourMeHeader{
+    background-image: linear-gradient(darkblue, rgba(0, 0, 0, 0.836));
+    color: azure;
+    font-size: medium;
+    text-align: center;
+    padding: .25in;
+    
 
+}
+.songSection{
+    background-color:black;
+    width: 6in;
+    height: 1in;
+    
+    
+}
 
+.heartEmoji{
+    color: transparent;  
+    text-shadow: 0 0 0 grey;
+    background-color: black;
+    border-style: hidden;
+    height: 1in;
+    width: 1in;
+    float: inline-end;
+    padding-top: .25in;
+    padding-right: .3in;
+
+}
+.question{
+    color:lightgray;font-size: large; margin-top: .1in ; height: .3in; width: 4in;text-align: left;
+}
+.answer{
+    color: grey;font-size: medium; height:.5in; width:4in;text-align: left;margin-left: .2in;
+}
+.albumCover{
+    max-width: fit-content;
+   margin-top: .2in;
+   margin-left:.1in;
+    margin-right:.1in;
+    width: .8in; height: .8in; float:inline-start; padding-bottom: .2in; 
+}
+a {
+    color: darkgray;
+}
                 
                
