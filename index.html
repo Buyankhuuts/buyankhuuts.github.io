@@ -35,6 +35,51 @@
             
                 
             }
+            function hidePythonSection(){
+                const body = document.querySelector("#PythonSection");
+                const javaBody = document.querySelector("#JavaSection");
+                const webBody = document.querySelector("#WebSection");
+                webBody.style.display = "none";
+                javaBody.style.display = "none";
+                if(body.style.display == "block"){
+                   body.style.display= "none";
+                }else{
+                    body.style.display = "block";
+                }
+            
+                  
+                    return false;
+            }
+            function hideWebSection(){
+                const webBody = document.querySelector("#PythonSection");
+                const javaBody = document.querySelector("#JavaSection");
+                const body = document.querySelector("#WebSection");
+                webBody.style.display = "none";
+                javaBody.style.display = "none";
+                if(body.style.display == "block"){
+                   body.style.display= "none";
+                }else{
+                    body.style.display = "block";
+                }
+            
+                  
+                    return false;
+            }
+            function hideJavaSection(){
+                const javaBody = document.querySelector("#PythonSection");
+                const body = document.querySelector("#JavaSection");
+                const webBody = document.querySelector("#WebSection");
+                webBody.style.display = "none";
+                javaBody.style.display = "none";
+                if(body.style.display == "block"){
+                   body.style.display= "none";
+                }else{
+                    body.style.display = "block";
+                }
+            
+                  
+                    return false;
+            }
         </script>
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     </head>
@@ -256,9 +301,153 @@
     </div>    
     <div id = "projects"  class = "outter">
         <h1>
-           Projects
-        </h1>        
-            <p>
+            Projects
+         </h1>
+        <div id = "buttons">
+        <button onclick = "hidePythonSection()">Python</button>
+        <button onclick = "hideJavaSection()"> Java</button>
+        <button onclick = "hideWebSection()"> WebDev </button>
+        </div>
+    
+        <div id = "InsideSectionOfProjects">
+            <div class= "Projectsection" id = "JavaSection" >
+                <div class = "ProjectBlocksJava">
+                    <h1 style = "text-align:center;">
+                        Gitlet
+                    </h1>
+                    <p style = "text-align:center;" >
+                        Version-Control system that mimics some of the basic features of Git. 
+                        
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Java
+                    </h1>
+                </div>  
+                <div class = "ProjectBlocksJava">
+                    <h1 style = "text-align:center;">
+                        Ataxx
+                    </h1>
+                    <p style = "text-align:center;" >
+                        A Two Player game played with Blue + Red pieces. Utilized Alpha-Bet Pruning for AI function. 
+                        
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Java
+                    </h1>
+                </div> 
+                <div class = "ProjectBlocksJava">
+                    <h1 style = "text-align:center;">
+                        Enigma
+                    </h1>
+                    <p style = "text-align:center;" >
+                        A cipher device that was used in WW2. 
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Java
+                    </h1>
+                </div> 
+                <div class = "ProjectBlocksJava">
+                    <h1 style = "text-align:center;">
+                        Blocks
+                    </h1>
+                    <p style = "text-align:center;" >
+                        A game that uses block pieces to fill in a board similar to Tetris. 
+                        
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Java
+                    </h1>
+                </div> 
+            </div>
+            <div class="Projectsection" id = "PythonSection">
+                <div class = "ProjectBlocksPython">
+                    <h1 style = "text-align:center;">
+                        Scheme Interpreter
+                    </h1>
+                    <p style = "text-align:center;" >
+                        As the name suggests, an Interpreter for the programming lanuguage, Scheme.
+                        
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Python
+                    </h1>
+                </div> 
+                <div class = "ProjectBlocksPython">
+                    <h1 style = "text-align:center;">
+                        Ants
+                    </h1>
+                    <p style = "text-align:center;" >
+                        A knock-off version of Plants Vs Zombies but using natures enemies: Bees and Ants. 
+                        
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Python
+                    </h1>
+                </div> 
+                <div class = "ProjectBlocksPython">
+                    <h1 style = "text-align:center;">
+                        Cats
+                    </h1>
+                    <p style = "text-align:center;" >
+                        A program that measures one's typing speed with autocorrect features.  
+                        
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Python
+                    </h1>
+                </div> 
+                <div class = "ProjectBlocksPython">
+                    <h1 style = "text-align:center;">
+                        Hog
+                    </h1>
+                    <p style = "text-align:center;" >
+                        A simulator for the dice game known as Hog
+                        
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Python
+                    </h1>
+                </div> 
+                <div class = "ProjectBlocksPython">
+                    <h1 style = "text-align:center;">
+                        Data Science Project
+                    </h1>
+                    <p style = "text-align:center;" >
+                    An Amazon Review sentiment analyzer. Utilized VADER. 
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Python
+                    </h1>
+                </div>
+                <div class = "ProjectBlocksPython">
+                    <h1 style = "text-align:center;">
+                        Datathon
+                    </h1>
+                    <p style = "text-align:center;" >
+                        An analysis between minority communities and environmental pollution.
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: Python
+                    </h1>
+                </div>
+            </div>
+            <div class ="Projectsection" id = "WebSection">
+                <div class = "ProjectBlocksWeb">
+                    <h1 style = "text-align:center;">
+                        Portfolio Website
+                    </h1>
+                    <p style = "text-align:center;" >
+                       this website :)
+                        
+                    </p>
+                    <h1 style = "text-align:center;">
+                        Language: HTML
+                    </h1>
+                </div> 
+            </div>
+        </div>
+        
+       <p>
                 🚧Construction🚧
             </p>
             

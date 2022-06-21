@@ -1,28 +1,4 @@
-/**body, html{
-	background-color: black;
-	color: #575757;
-	width: 100%;
-	height: 100%;
-	scroll-behavior: smooth;
-	font-family: nobel, sans-serif;
-	font-style: normal;
-	margin:0;
-    padding:0;
-}
-div {
-    padding: 25%;
-    background-color: darkgray;
-    border-color: aliceblue;
-    border: 10in;
-    border-radius: 10cm;
-    
-}
 
-
-ul {
-    align-self: center;
-    float: left;
-}**/
 *{
     padding:0;
     margin:0;
@@ -121,7 +97,7 @@ p{
 }
 
 div {
-    background-color: rgb(231, 231, 211);
+    background-color: yellow;
 }
 button{
     padding: 14px 40px;
@@ -168,13 +144,98 @@ button:hover {
     overflow-y: scroll;
     
 }
+#projects #buttons{
+    margin-top: .2in;
+    padding-left: 5.55in;
+    background-color: white;
+}
+#projects #buttons button{
+    color: black;
+    background-color: white;
+    border: .1in black;
+}
+#InsideSectionOfProjects{
+    
+   
+  background-color: white;
+  overflow-x:scroll;
+  overflow-y:scroll;
+    
+    
+    
+    scrollbar-width: .1in;
+    scrollbar-color: grey;
+    scroll-behavior: smooth;
+    margin-left:36.5%;
+    margin-right: 25%;
+  
+    width: 4.1in;;
+    height:1.8in;
+}
+.ProjectBlocksJava{
+    
+    background-color: grey;
+    visibility: visible;
+    display:block;
+}
+#PythonSection{
+    float:left;
+    display:none;
+}
+#JavaSection{
+    float:left;
+    display:none;
+}
+#WebSection{
+    float:left;
+    display:none;
+}
+
+
+
+
+.Projectsection{
+    
+  
+    float:left;
+    display:contents;
+   
+    background-color: grey;
+    width: 4in;
+    height:1.8in;
+    
+    
+    visibility: visible;
+}
+
+
+#InsideSectionOfProjects>.Projectsection>div>h1{
+    
+   background-color: white;
+   width: 4in;
+   height: .3in;
+    font-size: large;
+    text-align: center;
+}
+
+#InsideSectionOfProjects>.Projectsection>div>p{
+    
+    padding-top: .2in;
+    width: inherit;
+    height:1.2in;
+    font-size: medium;
+    text-align: center;
+    background-color: white;
+}
+
+
 .personalInfo{
     
     background-color: black;
     color: azure;
     float: left;
     width: 3.5in;
-    margin-inline: ;
+    
     
 }
 
@@ -225,4 +286,3 @@ a {
     
 }
                 
-               
