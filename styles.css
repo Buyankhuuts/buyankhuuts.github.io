@@ -195,7 +195,7 @@ button:hover {
     
 }
 
-.heartEmoji{
+#heartEmoji{
     color: transparent;  
     text-shadow: 0 0 0 grey;
     background-color: black;
@@ -222,6 +222,7 @@ button:hover {
 }
 a {
     color: darkgray;
+    
 }
                 
                
