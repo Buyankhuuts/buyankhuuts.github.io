@@ -125,6 +125,8 @@ button:hover {
   bottom: 30%;
   left: 0%;
 }
+
+/**
 #work::before,
 #work::after{
   content: "";
@@ -154,6 +156,7 @@ button:hover {
       left:67%;
     }
   }
+  **/
 #aboutMe {
     
     scroll-behavior: smooth;
