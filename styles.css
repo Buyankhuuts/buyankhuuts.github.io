@@ -74,25 +74,36 @@ p{
     font-size: x-large;
 
 }
-#CalCourses{
-    visibility: hidden;
-}
+
+
 #CAL{
- 
+    padding: 0%;
+    
     background-image: url("images/calpic.jpeg");
     background-size: cover;
     visibility: visible;
+    content-visibility: hidden;
 
 }
+#CAL:hover{
+    background-image:none;
+    content-visibility: visible;
+}
+
 
 #northwood{
-    visibility: hidden;
+    visibility:visible;
+}
+#northwoodDiv:hover{
+    background-image:none;
+    content-visibility: visible;
 }
 #northwoodDiv{
- 
+    padding: 0%;
+    background-image: ;
     background-image: url("images/IMG_0812.JPG");
     background-size: cover;
-    visibility: visible;
+    content-visibility: hidden;
    
 }
 
@@ -107,14 +118,28 @@ button:hover {
     size: 5in;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
+#name{
+    top:31.5%;
+    right:33%;
+    bottom: 30%;
+    left: 30%; 
+}  
+#work{
+  top:31.5%;
+  right:0%;
+  bottom: 30%;
+  left: 0%;
+}
 #work::before,
 #work::after{
   content: "";
   position:absolute;
   top:31.5%;
   right:33%;
-  bottom: 1in;
+  bottom: 30%;
   left: 30%;
+ 
+ ;
 }
 
 #work::before {
@@ -145,7 +170,7 @@ button:hover {
 #projects #buttons{
     
     margin-top: .2in;
-    padding-left: 5.55in;
+    padding-left: 37%;
     background-color: white;
 }
 #projects #buttons button{

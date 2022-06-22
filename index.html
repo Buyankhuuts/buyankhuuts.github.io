@@ -7,17 +7,17 @@
         <script>
             function flipCAL()  {
                 const body = document.querySelector("#CalCourses");
-                body.style.visibility = "visible";
+                body.style. visibility= "visible";
                 const pic = document.querySelector("#CAL");
-                pic.style.visibility = "hidden";
+                pic.style.backgroundImage = "none";
                 return false;
                 
             }
             function flipNorthwood()  {
                 const body = document.querySelector("#northwood");
-                body.style.visibility = "visible";
+                body.style. visibility = "visible";
                 const pic = document.querySelector("#northwoodDiv");
-                pic.style.visibility = "hidden";
+                pic.style.backgroundImage = "none";
                 return false;
                 
             }
@@ -100,7 +100,10 @@
             <h4 style = "text-align: center; float: none; margin-top: 10%;">
                 hey there, i'm
             </h4>
-            <h1 id = "work" >
+            <div  id = "work" >
+
+            </div>>
+            <h1 id = "name">
                 ----Buyankhuu Tsolmonkhuu----
             </h1>
         
@@ -252,12 +255,11 @@
         
             <div2 class = "inner" id = "CAL">
                 <p>
-                    University Of California, Berkeley
+                   University Of California, Berkeley
+                    
                 </p>
                 <ul id = "CalCourses">
-                    <p>
-                        University Of California, Berkeley
-                    </p>
+                    
                     <li>
                         CS61A: Structure and Interpretation of Computer Programs
                     </li>
@@ -274,19 +276,14 @@
                         Calculus
                     </li>    
                 </ul>
-                <button onclick="flipCAL()" style = "margin-top: 1.7in;background-color: black;"> Relevant Courses</button>
+                
             </div2>
             <div2 class = "inner" id = "northwoodDiv">
                 <p>
-                    Northwood High School
+                  Northwood High School
                 </p>
-                <p>
-                    🚪🏃🏻‍♂️💨
-                </p>  
+                
                 <ul id = "northwood">
-                    <p>
-                        Northwood High School
-                    </p>
                     <li>
                         AP Computer Science A
                     </li>
@@ -294,7 +291,7 @@
                         AP Computer Science Principles
                     </li>
                 </ul>
-                <button onclick="flipNorthwood()"  style = " margin-top:3.25in;background-color: black;"> Relevant Courses</button>
+               
             </div2>
           
         
