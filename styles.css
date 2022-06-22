@@ -38,9 +38,6 @@ nav ul li a{
     color: black;
     text-decoration: none;
 }
-
-
-
 .outter{
     height : 104vh;
     width:100%;
@@ -74,8 +71,6 @@ p{
     font-size: x-large;
 
 }
-
-
 #CAL{
     padding: 0%;
     
@@ -217,12 +212,13 @@ button:hover {
 
 .Projectsection{
     
-  
+    
     float:left;
     display:contents;
     background-color: grey;
     width: 60%;
-    height:1.8in;
+    height:100%;
+   
     
     
    
@@ -233,7 +229,8 @@ button:hover {
     
    background-color: white;
    width: 100%;
-   height: .3in;
+   height: 10%;
+   border-top: 10%;
     font-size: large;
     text-align: center;
 }
@@ -272,16 +269,17 @@ button:hover {
     background-color:black;
     width: 100%;
     height: 1in;
-    
+    overflow-x: hidden;
     
 }
 
 #heartEmoji{
+    
     color: transparent;  
     text-shadow: 0 0 0 grey;
     background-color: black;
     border-style: hidden;
-    height: 1in;
+    height: 10%;
     width: 10%;
     float: inline-end;
     padding-top: .25in;
@@ -306,4 +304,3 @@ a {
     color: darkgray;
     
 }
-                
