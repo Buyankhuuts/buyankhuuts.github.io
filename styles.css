@@ -80,7 +80,7 @@ p{
     content-visibility: hidden;
 
 }
-#CAL:hover{
+#CAL:hover, #CAL:active{
     background-image:none;
     content-visibility: visible;
 }
@@ -89,7 +89,7 @@ p{
 #northwood{
     visibility:visible;
 }
-#northwoodDiv:hover{
+#northwoodDiv:hover, #northwoodDiv:active{
     background-image:none;
     content-visibility: visible;
 }
