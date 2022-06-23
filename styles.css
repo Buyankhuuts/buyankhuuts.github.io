@@ -367,7 +367,7 @@ a {
         padding-top: 50%;
         font-size: small;
     }
-    div2 img{
+    #divWithIMG{
         display:none;
     }
    
@@ -387,7 +387,7 @@ a {
     }
     #CAL{
         border-radius: 5%;
-        background-image:white;
+        background-image:none;
         
     
     }
@@ -398,7 +398,7 @@ a {
     #northwoodDiv{
         border-radius: 5%;
         
-        background-image:white;
+        background-image:none;
     
       
        
