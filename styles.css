@@ -321,4 +321,20 @@ a {
     background-color:white;
    
 }
+#footing{
+    text-align: center;
+    padding-top: 4%;
+    background-image:linear-gradient(white,lightgrey);
+    height:20%;
+    
+}
+#footing a{
+    color:black;
+    
+    align-items: center;
+    text-decoration: none;
+    padding: 1%;
+}
+
+
 
