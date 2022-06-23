@@ -337,13 +337,10 @@ a {
 /** override some of the settings for mobile**/
 @media only screen and (max-width: 480px){
     h4{
-        padding-top: 50%;
+        padding-top: 40%;
     }
    
-    nav{
-        display:none;
-       
-    }
+    
     .logo{
       
         display:none;
@@ -359,14 +356,17 @@ a {
     }
     #CAL{
         border-radius: 1%;
-        background-color: lightslategrey;
+        background-color: darkgrey;
         background-image: none;
         
     
     }
+    #heartEmoji{
+        display:none;
+    }
     #northwoodDiv{
         border-radius: 1%;
-        background-color: lightslategrey;
+        background-color: darkgrey;
         background-image:none;
     
       
