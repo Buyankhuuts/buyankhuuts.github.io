@@ -355,7 +355,9 @@ a {
     .name{
         font-size: medium;
     }
-    
+    .menu{
+        background-image: url("images/4FB09D4E-006A-4024-AD96-4796A0283717.jpg");
+    }
 
     
     #aboutMe{
