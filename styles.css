@@ -357,7 +357,7 @@ a {
     }
     .menu{
         background-image: url("images/4FB09D4E-006A-4024-AD96-4796A0283717.jpg");
-        background-size: 100%;
+        background-size:cover;
     }
 
     
@@ -399,6 +399,7 @@ a {
         text-shadow: 0 0 0 black;
     }
     #northwoodDiv{
+        display:none;
         border-radius: 5%;
         
         background-image:none;
