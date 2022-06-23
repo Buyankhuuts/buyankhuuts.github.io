@@ -132,9 +132,8 @@ p{
     background-color:black;
     width: 100%;
     height: 1in;
-    
-    overflow-x:scroll;
-    overflow-y: hidden;
+    overflow-y: scroll;
+    overflow-x:hidden;
     
     
 }
@@ -145,7 +144,7 @@ p{
     text-shadow: 0 0 0 grey;
     background-color: black;
     border-style: hidden;
-    height: 10%;
+    height: .3in;
     width: 20%;
     padding-top: 5%;
     padding-left: 10%;
@@ -165,7 +164,7 @@ p{
   
     color: grey;
     font-size: medium; 
-    height: 45%; 
+    height: .5in;
     width: 200%;
     text-align: left;
     margin-left: 5%;
@@ -337,6 +336,10 @@ a {
 }
 /** override some of the settings for mobile**/
 @media only screen and (max-width: 480px){
+    h4{
+        padding-top: 50%;
+    }
+   
     nav{
         display:none;
        
@@ -355,13 +358,15 @@ a {
        
     }
     #CAL{
-   
+        border-radius: 1%;
+        background-color: lightslategrey;
         background-image: none;
         
     
     }
     #northwoodDiv{
-       
+        border-radius: 1%;
+        background-color: lightslategrey;
         background-image:none;
     
       
