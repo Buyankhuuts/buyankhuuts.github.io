@@ -39,11 +39,9 @@
                 const body = document.querySelector("#PythonSection");
                 const javaBody = document.querySelector("#JavaSection");
                 const webBody = document.querySelector("#WebSection");
-                const button  = document.querySelector("#PButton")
-              
-                
-              
-               
+                const button  = document.querySelector("#PButton");
+                const Wbutton  = document.querySelector("#WButton")
+                const Jbutton  = document.querySelector("#JButton");
                 webBody.style.display = "none";
                 javaBody.style.display = "none";
                 
@@ -52,6 +50,8 @@
                    body.style.display= "none";
                 }else{
                     button.style.backgroundColor = "whitesmoke";
+                    Wbutton.style.backgroundColor = "white";
+                    Jbutton.style.backgroundColor = "white";
                     body.style.display = "block";
                 }
             
@@ -62,15 +62,18 @@
                 const webBody = document.querySelector("#PythonSection");
                 const javaBody = document.querySelector("#JavaSection");
                 const body = document.querySelector("#WebSection");
-                const button  = document.querySelector("#WButton")
-               
+                const Wbutton  = document.querySelector("#WButton")
+                const Jbutton  = document.querySelector("#JButton");
+                const Pbutton  = document.querySelector("#PButton");
                 webBody.style.display = "none";
                 javaBody.style.display = "none";
                 if(body.style.display == "block"){
-                    button.style.backgroundColor = "white";
+                    Wbutton.style.backgroundColor = "white";
                    body.style.display= "none";
                 }else{
-                    button.style.backgroundColor = "whitesmoke";
+                    Wbutton.style.backgroundColor = "whitesmoke";
+                    Jbutton.style.backgroundColor = "white";
+                    Pbutton.style.backgroundColor = "white";
                     body.style.display = "block";
                 }
             
@@ -81,15 +84,18 @@
                 const javaBody = document.querySelector("#PythonSection");
                 const body = document.querySelector("#JavaSection");
                 const webBody = document.querySelector("#WebSection");
-                const button  = document.querySelector("#JButton")
-                
+                const Jbutton  = document.querySelector("#JButton");
+                const Wbutton  = document.querySelector("#WButton");
+                const Pbutton  = document.querySelector("#PButton");
                 webBody.style.display = "none";
                 javaBody.style.display = "none";
                 if(body.style.display == "block"){
-                    button.style.backgroundColor = "white";
+                    Jbutton.style.backgroundColor = "white";
                    body.style.display= "none";
                 }else{
-                    button.style.backgroundColor = "whitesmoke";
+                    Jbutton.style.backgroundColor = "whitesmoke";
+                    Wbutton.style.backgroundColor = "white";
+                    Pbutton.style.backgroundColor = "white";
                     body.style.display = "block";
                 }
             
