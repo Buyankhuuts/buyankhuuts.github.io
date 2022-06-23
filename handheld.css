@@ -19,26 +19,30 @@
     
 }
 nav{
-    display: flex;
-    align-items: center;
+
+   
+    align-self: left;
     justify-content: space-between;
     padding-top: 45px;
     padding-left:8%;
     padding-right: 8%;
 }
 .logo{
-   
+  
+    display:none;
     color: black;
     font-size: 35px;
     letter-spacing:1px;
     cursor: pointer;
 }
 nav ul li{
+    display: none;
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
 nav ul li a{
+    display: none;
     color: black;
     text-decoration: none;
 }
@@ -58,36 +62,6 @@ nav ul li a{
   bottom: 30%;
   left: 0%;
 }
-
-/**
-#work::before,
-#work::after{
-  content: "";
-  position:absolute;
-  top:31.5%;
-  right:33%;
-  bottom: 30%;
-  left: 30%;
- 
- ;
-}
-
-#work::before {
-    background: white;
-    animation: typewriter 6s steps(20) 1s forwards;
-  }
-  
-#work::after {
-    background: white;
-    animation: typewriter  6s steps(20) 1s forwards;
-  }
-  @keyframes typewriter {
-    to {
-      left:67%;
-    }
-  }
-  **/
-
 
 /**page sections **/
 .outter{
@@ -141,7 +115,7 @@ p{
 }
 
 .personalInfo{
-    
+
     background-color: black;
     color: azure;
     float: left;
@@ -160,10 +134,12 @@ p{
 
 }
 .songSection{
+   
     background-color:black;
     width: 100%;
     height: 1in;
-    overflow-x: hidden;
+    
+    overflow-y: hidden;
     
     
 }
@@ -174,6 +150,7 @@ p{
     text-shadow: 0 0 0 grey;
     background-color: black;
     border-style: hidden;
+    
     height: 10%;
     width: 20%;
     padding-top: 5%;
@@ -184,8 +161,8 @@ p{
     color:lightgray;font-size: large; margin-top: .1in ; height: .3in; width: 4in;text-align: left;
 }
 .answer{
-    
-    color: grey;font-size: medium; height:10%; width: 100%;text-align: left;margin-left: .2in;
+    background-color: black;
+    color: grey;font-size: medium; height:10%; width: 3in;text-align: left;margin-left: .2in;
 }
 .albumCover{
     max-width: fit-content;
@@ -205,21 +182,17 @@ a {
 #CAL{
    
     padding: 0%;
-    background-image: url("images/calpic.jpeg");
-    background-size: cover;
-   
+    color:whitesmoke;
+border-radius: .1in;
+   background-color: black;
     visibility: visible;
-    content-visibility: hidden;
+    
 
 }
-#CAL:hover, #CAL:active{
-    background-image:none;
-    content-visibility: visible;
-}
+
 #CalCourses li{
    overflow-y: scroll;
-
-    list-style-type: none;
+list-style-type: none;
 }
 #northwoodDiv li{
     overflow-y: scroll;
@@ -228,22 +201,14 @@ a {
 }
 
 
-
-
-#northwood{
-    visibility:visible;
-}
-#northwoodDiv:hover{
-    background-image:none;
-    content-visibility: visible;
-}
 #northwoodDiv{
-
+    color:whitesmoke;
+   background-color: black;
     padding: 0%;
-    background-image: url("images/IMG_0812.JPG");
+    border-radius: .1in;
     background-size: cover;
   
-    content-visibility: hidden;
+   
 }
 
 
@@ -354,6 +319,4 @@ a {
     text-decoration: none;
     padding: 1%;
 }
-
-
 
