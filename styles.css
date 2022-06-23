@@ -155,7 +155,7 @@ p{
 }
 .answer{
     background-color: black;
-    color: grey;font-size: medium; height:10%; width: 3in;text-align: left;margin-left: .2in;
+    color: grey;font-size: medium; height:10%; width: 200%;text-align: left;margin-left: .2in;
 }
 .albumCover{
     max-width: fit-content;
@@ -322,7 +322,7 @@ a {
     text-decoration: none;
     padding: 1%;
 }
-
+/** override some of the settings for mobile**/
 @media only screen and (max-width: 480px){
     nav{
 
@@ -359,6 +359,7 @@ a {
     border-radius: .1in;
        background-color: black;
         visibility: visible;
+        background-image: none;
         
     
     }
@@ -376,13 +377,14 @@ a {
     
     #northwoodDiv{
         color:whitesmoke;
+        background-image: none;
        background-color: black;
         padding: 0%;
         border-radius: .1in;
         background-size: cover;
       
        
-    }
+    }}
 
 
 
