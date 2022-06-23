@@ -124,7 +124,7 @@ p{
     font-size: medium;
     text-align: center;
     padding: .25in;
-    overflow-y: scroll;
+  
    
  
 
@@ -346,7 +346,8 @@ a {
     #mobileVersion{
         display: content;
         text-align: center;
-        font-size: 100%;
+        font-size: extra-small;
+        size: 10%;
         color:white;
         
     }
