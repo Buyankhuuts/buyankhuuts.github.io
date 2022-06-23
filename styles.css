@@ -343,31 +343,30 @@ a {
 /** override some of the settings for mobile**/
 @media only screen and (max-width: 480px){
     .inner{
-        width:50%;
+        margin:0%;
     }
     .albumCover{
       max-width: fit-content;
        margin-top: .2in;
        margin-left:.1in;
         margin-right:.1in;
-        width: 20%; height: .8in; float:inline-start; padding-bottom: .2in; 
+        width: 10%; height: .8in; float:inline-start; padding-bottom: .2in; 
     }
     .name{
         font-size: medium;
     }
-
     .menu{
-        margin: 0%;
-        width:50%;
-        float:left;
+        background-image: url("images\4FB09D4E-006A-4024-AD96-4796A0283717.jpg");
     }
+
+    
     #aboutMe{
         margin:0%;
         width:100%;
     }
 
     h4{
-        padding-top: 40%;
+        padding-top: 50%;
         font-size: small;
     }
    
