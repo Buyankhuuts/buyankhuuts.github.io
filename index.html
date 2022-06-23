@@ -39,13 +39,19 @@
                 const body = document.querySelector("#PythonSection");
                 const javaBody = document.querySelector("#JavaSection");
                 const webBody = document.querySelector("#WebSection");
+                const button  = document.querySelector("#PButton")
+              
                 
+              
+               
                 webBody.style.display = "none";
                 javaBody.style.display = "none";
                 
                 if(body.style.display == "block"){
+                    button.style.backgroundColor = "white";
                    body.style.display= "none";
                 }else{
+                    button.style.backgroundColor = "whitesmoke";
                     body.style.display = "block";
                 }
             
@@ -56,12 +62,15 @@
                 const webBody = document.querySelector("#PythonSection");
                 const javaBody = document.querySelector("#JavaSection");
                 const body = document.querySelector("#WebSection");
-                
+                const button  = document.querySelector("#WButton")
+               
                 webBody.style.display = "none";
                 javaBody.style.display = "none";
                 if(body.style.display == "block"){
+                    button.style.backgroundColor = "white";
                    body.style.display= "none";
                 }else{
+                    button.style.backgroundColor = "whitesmoke";
                     body.style.display = "block";
                 }
             
@@ -72,12 +81,15 @@
                 const javaBody = document.querySelector("#PythonSection");
                 const body = document.querySelector("#JavaSection");
                 const webBody = document.querySelector("#WebSection");
+                const button  = document.querySelector("#JButton")
                 
                 webBody.style.display = "none";
                 javaBody.style.display = "none";
                 if(body.style.display == "block"){
+                    button.style.backgroundColor = "white";
                    body.style.display= "none";
                 }else{
+                    button.style.backgroundColor = "whitesmoke";
                     body.style.display = "block";
                 }
             
@@ -305,9 +317,9 @@
             Projects
          </h1>
         <div id = "buttons">
-        <button onclick = "hidePythonSection()">Python</button>
-        <button onclick = "hideJavaSection()"> Java</button>
-        <button onclick = "hideWebSection()"> WebDev </button>
+        <button id = "PButton" onclick = "hidePythonSection()">Python</button>
+        <button id = "JButton" onclick = "hideJavaSection()"> Java</button>
+        <button id = "WButton" onclick = "hideWebSection()"> WebDev </button>
         </div>
     
         <div id = "InsideSectionOfProjects">

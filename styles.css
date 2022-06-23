@@ -14,6 +14,7 @@
     height : 100vh;
     width:100%;
     background-image: linear-gradient(gray,white);
+    
   
     
 }
@@ -89,6 +90,7 @@ nav ul li a{
     height : 104vh;
     width:100%;
     background-color: white;
+    
 }
 img{
     overflow: visible;
@@ -247,6 +249,8 @@ a {
     border: 2px solid black; 
     border-radius: 10%;
 }
+
+
 /** the project box**/
 #InsideSectionOfProjects{
     background-color: white;
