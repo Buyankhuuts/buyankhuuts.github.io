@@ -344,6 +344,7 @@ a {
 @media only screen and (max-width: 480px){
     .inner{
         margin:0%;
+       
     }
     .albumCover{
       max-width: fit-content;
@@ -357,7 +358,7 @@ a {
     }
     .menu{
         background-image: url("images/4FB09D4E-006A-4024-AD96-4796A0283717.jpg");
-        background-size:cover;
+        background-size:contain;
     }
 
     
@@ -391,6 +392,7 @@ a {
     #CAL{
         border-radius: 5%;
         background-image:none;
+        width: 100%;
         
     
     }
