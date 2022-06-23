@@ -345,24 +345,30 @@ a {
     .inner{
         width:50%;
     }
+    .albumCover{
+      max-width: fit-content;
+       margin-top: .2in;
+       margin-left:.1in;
+        margin-right:.1in;
+        width: 20%; height: .8in; float:inline-start; padding-bottom: .2in; 
+    }
+    .name{
+        font-size: medium;
+    }
+
     .menu{
+        margin: 0%;
         width:50%;
         float:left;
     }
     #aboutMe{
+        margin:0%;
         width:100%;
     }
 
-    #mobileVersion{
-        display: content;
-        text-align: center;
-        font-size: extra-small;
-        size: 10%;
-        color:white;
-        
-    }
     h4{
         padding-top: 40%;
+        font-size: small;
     }
    
     
