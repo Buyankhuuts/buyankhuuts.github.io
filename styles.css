@@ -139,7 +139,7 @@ p{
 }
 
 #heartEmoji{
-    
+  
     color: transparent;  
     text-shadow: 0 0 0 grey;
     background-color: black;
@@ -355,19 +355,19 @@ a {
        
     }
     #CAL{
-        border-radius: 1%;
-        background-color: darkgrey;
-        background-image: none;
+        border-radius: 5%;
+        background-image:linear-gradient(grey,white);
         
     
     }
     #heartEmoji{
         display:none;
+        text-shadow: 0 0 0 black;
     }
     #northwoodDiv{
-        border-radius: 1%;
-        background-color: darkgrey;
-        background-image:none;
+        border-radius: 5%;
+        
+        background-image:linear-gradient(grey,white);
     
       
        
