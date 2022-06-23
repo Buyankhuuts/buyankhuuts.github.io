@@ -124,6 +124,7 @@ p{
     font-size: medium;
     text-align: center;
     padding: .25in;
+    overflow-y: scroll;
    
  
 
