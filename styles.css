@@ -369,6 +369,9 @@ a {
         padding-top: 50%;
         font-size: small;
     }
+    div2 img{
+        display:none;
+    }
    
     
     .logo{
@@ -386,7 +389,7 @@ a {
     }
     #CAL{
         border-radius: 5%;
-        background-image:linear-gradient(grey,white);
+        background-image:white;
         
     
     }
@@ -397,7 +400,7 @@ a {
     #northwoodDiv{
         border-radius: 5%;
         
-        background-image:linear-gradient(grey,white);
+        background-image:white;
     
       
        
