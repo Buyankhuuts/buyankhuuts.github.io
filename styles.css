@@ -192,7 +192,7 @@ a {
     content-visibility: hidden;
 
 }
-#CAL:hover, #CAL:active{
+#CAL:hover{
     background-image:none;
     content-visibility: visible;
 }
@@ -334,8 +334,18 @@ a {
     text-decoration: none;
     padding: 1%;
 }
+#id{
+    display:none;
+}
 /** override some of the settings for mobile**/
 @media only screen and (max-width: 480px){
+    #id{
+        display: content;
+        text-align: center;
+        font-size: xx-small;
+        color:white
+
+    }
     h4{
         padding-top: 40%;
     }
