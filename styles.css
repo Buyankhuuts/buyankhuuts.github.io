@@ -204,6 +204,7 @@ a {
     padding: 0%;
     background-image: url("images/calpic.jpeg");
     background-size: cover;
+    overflow: visible;
     visibility: visible;
     content-visibility: hidden;
 
@@ -222,6 +223,7 @@ a {
     content-visibility: visible;
 }
 #northwoodDiv{
+    overflow: visible;
     padding: 0%;
     background-image: url("images/IMG_0812.JPG");
     background-size: cover;
