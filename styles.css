@@ -18,6 +18,12 @@
   
     
 }
+h4{
+    width:fit-content;
+    margin-left: 40%;
+    
+
+}
 nav{
     display: flex;
     align-items: center;
@@ -366,7 +372,7 @@ a {
     }
     .name{
         font-size: medium;
-        color: grey;
+        color: black;
     }
     .menu{
         background-image: url("images/4FB09D4E-006A-4024-AD96-4796A0283717.jpg");
@@ -383,7 +389,9 @@ a {
     h4{
         padding-top: 50%;
         font-size: small;
-        color: grey;
+        color: black;
+       
+        
     }
     #divWithIMG{
         display:none;
