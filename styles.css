@@ -48,8 +48,16 @@ nav ul li a{
     color: black;
     text-decoration: none;
 }
-
+#greeting{
+    margin-top: 10%;
+    margin-left: 0%;
+    
+    text-align: center;
+    width:100%;
+    height: fit-content;
+}
 #name{
+    width:100%;
     top:31.5%;
     right:33%;
     bottom: 30%;
