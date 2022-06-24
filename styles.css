@@ -18,12 +18,7 @@
   
     
 }
-h4{
-    width:fit-content;
-    margin-left: 40%;
-    
 
-}
 nav{
     display: flex;
     align-items: center;
@@ -31,6 +26,7 @@ nav{
     padding-top: 45px;
     padding-left:8%;
     padding-right: 8%;
+  
 }
 .logo{
    
@@ -51,14 +47,14 @@ nav ul li a{
 #greeting{
     margin-top: 15%;
     margin-left: 0%;
-    
+   
     text-align: center;
     width:100%;
    
 }
 #name{
     width:100%;
-     
+     color:azure;
     margin-top: 1%;
     
    
