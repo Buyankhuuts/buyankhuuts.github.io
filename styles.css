@@ -49,6 +49,7 @@ nav ul li a{
     bottom: 30%;
     left: 30%; 
     margin-top: 3%;
+    
    
 }  
 
@@ -365,10 +366,12 @@ a {
     }
     .name{
         font-size: medium;
+        color: grey;
     }
     .menu{
         background-image: url("images/4FB09D4E-006A-4024-AD96-4796A0283717.jpg");
         background-size:cover;
+
     }
 
     
@@ -380,6 +383,7 @@ a {
     h4{
         padding-top: 50%;
         font-size: small;
+        color: grey;
     }
     #divWithIMG{
         display:none;
